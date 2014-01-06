@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <style type="text/css">
-            html, body {
-                -webkit-font-smoothing: antialiased;
-            }
-            .dropdown {
-                display: inline-block;
-            }
-        </style>
-    </head>
-    <body>
-
 <div class="container">
 
 <h1>&lt;Select&gt; &rarr; Bootstrap dropdown</h1>
