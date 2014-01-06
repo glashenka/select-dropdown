@@ -18,7 +18,7 @@
 &lt;select class="<b>markerClassName</b> someClass" id="someId" name="first"&gt;
     &lt;option value="a"&gt;the first letter&lt;/option&gt;
     &lt;option value="b" default&gt;letter b&lt;/option&gt;
-    &lt;option value="c"&gt;just c&lt;/option&gt;
+    &lt;option value="c"&gt;c is a very long option&lt;/option&gt;
 &lt;/select&gt;
 </pre>
 
@@ -38,7 +38,7 @@
                 &lt;a role="menuitem" tabindex="-1" href="#" value="b"&gt;letter b&lt;/a&gt;
             &lt;/li&gt;
             &lt;li role="presentation"&gt;
-                &lt;a role="menuitem" tabindex="-1" href="#" value="c"&gt;c is a very long option text that checks how does the dropdown behave in this case&lt;/a&gt;
+                &lt;a role="menuitem" tabindex="-1" href="#" value="c"&gt;c is a very long option&lt;/a&gt;
             &lt;/li&gt;
         &lt;/ul&gt;
         &lt;/div&gt;
