@@ -21,12 +21,7 @@
     &lt;option value="c"&gt;just c&lt;/option&gt;
 &lt;/select&gt;
 </pre>
-<h4>Result</h4> 
-    <select class="markerClassName someClass" id="someId" name="first">
-        <option value="a">the first letter</option>
-        <option value="b" default>letter b</option>
-        <option value="c">c is a very long option text that checks how does the dropdown behave in this case</option>
-    </select>
+
 <h4>Result code</h4>
 <pre>
     &lt;input name="first" type="hidden" value="a"&gt;
@@ -48,32 +43,8 @@
         &lt;/ul&gt;
         &lt;/div&gt;
 </pre>
-<h2> Select #2. An inline one</h2>
 <p>You may add <code>display: inline-block;</code> to class <code>.dropdown</code> and make selects a part of a text.
-<h4>Code</h4>
-<pre>
-&lt;p&gt;
-    Using a select as an inline block is possible also
-    &lt;select class="<b>markerClassName</b> someAnotherClass" id="someAnotherId" name="second"&gt;
-        &lt;option value="1" default&gt;one&lt;/option&gt;
-        &lt;option value="2"&gt;two(2)&lt;/option&gt;
-        &lt;option value="3"&gt;three - 3&lt;/option&gt;
-    &lt;/select&gt;
-    if you find it useful.
-&lt;/p&gt;
-</pre>
-<h4>Result</h4>
 
-<p>
-    Using a select as an inline block is possible also
-    <select class="markerClassName someAnotherClass" id="someAnotherId" name="second">
-        <option value="1" default>one</option>
-        <option value="2">two(2)</option>
-        <option value="3">three - 3</option>
-    </select>
-if you find it useful.</p>
-<!-- <h4>Result code</h4>
-<pre>...</pre> -->
 
 <h2>Details</h2>
 <p>Classes and id from the select are inherited by a outer <code>&lt;div&gt;</code>. Name-attribute are inherited by a the hidden <code>&lt;input&gt;</code>.</p>
@@ -102,17 +73,3 @@ I suppose that support of Internet Explorer is quite restricted. Don't want to l
 <p>In case of your question/comments/problems, please, write my on <a href="mailto:glashenka@gmail.com">glashenka@gmail.com</a></p>
 
 </div>
-
-        <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
-        <!-- // <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
-        <script type="text/javascript" src="js/dropdown.js"></script>
-        <script type="text/javascript" src="js/select-dropdown.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('.dropdown-toggle').dropdown();
-                // selectToDropdown('markerClassName');
-                selectToDropdown();
-            });
-        </script>
-        </body>
-    </html>
