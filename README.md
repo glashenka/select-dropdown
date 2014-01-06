@@ -65,7 +65,7 @@ I suppose that support of Internet Explorer is quite restricted. Don't want to l
 
 <p>Prerequisite scripts:
 <ul>
-    <li><a href="">jquery-2.0.3.min.js</a> Not sure about the version</li>
+    <li><a href="">jquery-2.0.3.min.js</a> Bootstrap dropdown prereq</li>
     <li><a href="">dropdown.js</a></li>
 </ul>
 </p>
