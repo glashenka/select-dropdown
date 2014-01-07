@@ -1,4 +1,3 @@
-<div class="container">
 
 <h1>&lt;Select&gt; &rarr; Bootstrap dropdown</h1>
 
@@ -38,12 +37,25 @@
                 &lt;a role="menuitem" tabindex="-1" href="#" value="b"&gt;letter b&lt;/a&gt;
             &lt;/li&gt;
             &lt;li role="presentation"&gt;
-                &lt;a role="menuitem" tabindex="-1" href="#" value="c"&gt;c is a very long option&lt;/a&gt;
+                &lt;a role="menuitem" tabindex="-1" href="#" value="c"&gt;c is a very long option text that checks how does the dropdown behave in this case&lt;/a&gt;
             &lt;/li&gt;
         &lt;/ul&gt;
         &lt;/div&gt;
 </pre>
+<h2> Select #2. Inline</h2>
 <p>You may add <code>display: inline-block;</code> to class <code>.dropdown</code> and make selects a part of a text.
+<h4>Code</h4>
+<pre>
+&lt;p&gt;
+    Using a select as an inline block is possible also
+    &lt;select class="<b>markerClassName</b> someAnotherClass" id="someAnotherId" name="second"&gt;
+        &lt;option value="1" default&gt;one&lt;/option&gt;
+        &lt;option value="2"&gt;two(2)&lt;/option&gt;
+        &lt;option value="3"&gt;three - 3&lt;/option&gt;
+    &lt;/select&gt;
+    if you find it useful. Looks very neat!
+&lt;/p&gt;
+</pre>
 
 
 <h2>Details</h2>
@@ -65,11 +77,8 @@ I suppose that support of Internet Explorer is quite restricted. Don't want to l
 
 <p>Prerequisite scripts:
 <ul>
-    <li><a href="">jquery-2.0.3.min.js</a> Bootstrap dropdown prereq</li>
-    <li><a href="">dropdown.js</a></li>
+    <li><a href="">jquery-2.0.3.min.js</a> jQuery(? version) Bottstrap prereq</li>
+    <li><a href="">dropdown.js</a> Bootstrap dropdow javascript file</li>
+    <li><a href="">bootstrap.min.js</a> Bootstrap css</li>
 </ul>
 </p>
-
-<p>In case of your question/comments/problems, please, write my on <a href="mailto:glashenka@gmail.com">glashenka@gmail.com</a></p>
-
-</div>
