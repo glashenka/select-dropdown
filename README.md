@@ -37,7 +37,7 @@
                 &lt;a role="menuitem" tabindex="-1" href="#" value="b"&gt;letter b&lt;/a&gt;
             &lt;/li&gt;
             &lt;li role="presentation"&gt;
-                &lt;a role="menuitem" tabindex="-1" href="#" value="c"&gt;c is a very long option text that checks how does the dropdown behave in this case&lt;/a&gt;
+                &lt;a role="menuitem" tabindex="-1" href="#" value="c"&gt;c is a very long option&lt;/a&gt;
             &lt;/li&gt;
         &lt;/ul&gt;
         &lt;/div&gt;
