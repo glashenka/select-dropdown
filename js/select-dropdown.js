@@ -17,7 +17,9 @@
         selects.forEach(function(e){
 
             var dropdownDiv =  document.createElement('div');
-            dropdownDiv.setAttribute('id', e.id);
+            if (e.id != null) {
+                dropdownDiv.setAttribute('id', e.id);
+            }
             dropdownDiv.setAttribute('class', 'dropdown ' + e.className);
 
             e.parentNode.insertBefore(dropdownDiv, e);
@@ -25,7 +27,9 @@
             // console.log(dropdownDiv);
 
             var hiddenInput = document.createElement('input');
-            hiddenInput.setAttribute('name', e.name);
+            if (e.name != null) {
+                hiddenInput.setAttribute('name', e.name);
+            }
             hiddenInput.setAttribute('type', 'hidden');
             hiddenInput.setAttribute('value', 'none');
             
